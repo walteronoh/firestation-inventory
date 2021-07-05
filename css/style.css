@@ -1,0 +1,90 @@
+body{
+    background:rgb(227, 230, 230);
+    font-family:sans-serif;
+}
+.left-bar{
+    position:absolute;
+    width:25%;
+    background:#f8f6f6;
+    left:0;
+    bottom:0;
+    top:0;
+    overflow:hidden;
+}
+.left-bar .profile{
+    text-align:center;
+    padding:10px;
+    margin:10px;
+}
+.left-bar .profile li{
+    text-decoration:none;
+    list-style:none;
+}
+.left-bar .profile li i{
+    font-size:2em;
+}
+.left-bar .profile li a{
+    color:crimson;
+}
+.left-bar .left-items{
+    padding:0px;
+}
+.left-bar .left-items li{
+    list-style:none;
+    padding:1em;
+    font-weight:bold;
+    font-size:1.2em;
+    border-bottom:1px solid rgb(219, 205, 205);
+    cursor:pointer;
+}
+.left-bar .left-items li:hover{
+    background:rgb(227, 230, 230);
+}
+.active-bar{
+    background:rgb(227, 230, 230);
+}
+.main-bar{
+    position:absolute;
+    width:75%;
+    right:0;
+    top:0;
+    bottom:0;
+}
+.main-bar h2{
+    text-align:center;
+    margin:10px;
+    padding:10px;
+    border-bottom:1px solid rgb(219, 205, 205);
+}
+.main-bar .btn-info{
+    float:right;
+}
+.main-bar .show-elements{
+    margin:10px;
+    padding:20px;
+}
+.main-bar .show-elements table{
+    text-align:left;
+    margin-top:20px;
+    width:100%;
+    border:1px solid black;
+}
+.main-bar .show-elements table th{
+    border:1px solid black;
+    text-align: center;
+}
+.main-bar .show-elements table tr{
+    border:1px solid black;
+    padding:30px;
+}
+.main-bar .show-elements table tr td{
+    padding:.5em;
+    border:1px solid black;
+}
+.main-bar .show-elements table tr td a{
+    cursor:pointer;
+    padding:10px;
+}
+.main-bar .show-elements table tr td a.remove_client,.remove_item,.remove_service{
+    color:red;
+}
